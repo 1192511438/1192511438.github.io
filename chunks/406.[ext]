@@ -1,0 +1,70 @@
+(self["webpackChunkreact_lyl_ui_web"] = self["webpackChunkreact_lyl_ui_web"] || []).push([[406],{
+
+/***/ 2667:
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": function() { return /* binding */ index; }
+});
+
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__(7294);
+// EXTERNAL MODULE: ./node_modules/lyl-aaa-ui/index.js
+var lyl_aaa_ui = __webpack_require__(3371);
+// EXTERNAL MODULE: ./node_modules/react-syntax-highlighter/dist/esm/prism-light.js + 3 modules
+var prism_light = __webpack_require__(8390);
+;// CONCATENATED MODULE: ./src/component/scrollBar/css/index.scss
+// extracted by mini-css-extract-plugin
+
+// EXTERNAL MODULE: ./node_modules/react-syntax-highlighter/dist/esm/styles/prism/cb.js
+var cb = __webpack_require__(3136);
+// EXTERNAL MODULE: ./node_modules/react-syntax-highlighter/dist/esm/styles/prism/vs.js
+var vs = __webpack_require__(5578);
+// EXTERNAL MODULE: ./node_modules/react-syntax-highlighter/dist/esm/styles/prism/hopscotch.js
+var hopscotch = __webpack_require__(9603);
+;// CONCATENATED MODULE: ./src/component/scrollBar/index.tsx
+
+
+
+
+
+function index() {
+  var Typescript = "\n    <ScrollBar  width={800} height={11}></ScrollBar>\n    ";
+  var api = "\n    ###API\n    \u5C5E\u6027           \u8BF4\u660E                      \u7C7B\u578B                      \u9ED8\u8BA4\u503C                  \u4ECB\u7ECD\n    \n    width          \u5BBD\u5EA6                     Number                     300               \u6839\u636E\u60C5\u51B5\u5B9A\u4E49 \n\n    height         \u9AD8\u5EA6                     Number                      10               \u6839\u636E\u60C5\u51B5\u5B9A\u4E49\n\n scrollColor     \u56FA\u5B9A\u989C\u8272                   String                    #ebeef5             \u6839\u636E\u60C5\u51B5\u5B9A\u4E49\n\n processColor   \u6EDA\u52A8\u7684\u989C\u8272                  String                     green              \u6839\u636E\u60C5\u51B5\u5B9A\u4E49\n\n  onchange      \u6ED1\u52A8\u8C03\u7528\u51FD\u6570                function                    \u65E0               \u53C2\u6570\u4E3A\u53F3\u4FA7\u767E\u5206\u6BD4\u6761\n\n    ";
+  var code = "\n    import {ScrollBar} from 'lyl-aaa-ui'\n    <ScrollBar  width={800} height={11}></ScrollBar>\n    ";
+  var zhuyi = "\n    \u52A0\u4E867ms\u7684\u9632\u6296\uFF0C\u53EF\u80FD\u6CA1\u6709\u90A3\u4E48\u4E1D\u6ED1\uFF0C\u4E0D\u8FC77ms\u5DF2\u7ECF\u662F\u6211\u6D4B\u8BD5\u7ED3\u5408\u6027\u80FD\u6700\u597D\u7684\u4E86\uFF0C\u4E5F\u53EF\u80FD\u6211\u6D4B\u7684\u4E0D\u51C6\u5427\n    \u8FD9\u91CC\u6709\u4E2A\u5C0Fbug\uFF0C\u5C31\u662F\u4E0D\u80FD\u4E00\u8D77\u9009\u4E2D\u591A\u4E2A\u5185\u5BB9\u6ED1\u52A8\uFF0C\u53EF\u4EE5\u901A\u8FC7css\u7981\u6B62\u5176\u4ED6\u9644\u8FD1\u5143\u7D20\u9009\u4E2D\u3002\n    \u8FD9\u91CC\u53EF\u80FD\u4E0D\u4F1A\u4FEE\u6539\uFF0C\u4E3B\u8981\u770B\u5FC3\u60C5\uFF0C\u6539\u4E86\u4F1A\u901A\u77E5\u3002css\u7981\u6B62\u9009\u4E2D\uFF0C\u5373\uFF1A\n    moz-user-select: -moz-none; \n    -moz-user-select: none; \n    -o-user-select:none; \n    -khtml-user-select:none; \n    -webkit-user-select:none; \n    -ms-user-select:none; \n    user-select:none;\n    ";
+  return /*#__PURE__*/react.createElement("div", {
+    id: "lyl-scroll"
+  }, /*#__PURE__*/react.createElement("h2", null, "\u6CE8\u610F"), /*#__PURE__*/react.createElement(prism_light/* default */.Z, {
+    language: "javascript",
+    PreTag: "div",
+    style: cb/* default */.Z
+  }, zhuyi), /*#__PURE__*/react.createElement("h2", null, "Form"), /*#__PURE__*/react.createElement(prism_light/* default */.Z, {
+    language: "javascript",
+    PreTag: "div",
+    style: vs/* default */.Z
+  }, Typescript), /*#__PURE__*/react.createElement("div", {
+    id: "show"
+  }, /*#__PURE__*/react.createElement(lyl_aaa_ui/* ScrollBar */.Bl, {
+    processColor: 'red',
+    width: 800,
+    height: 11
+  })), /*#__PURE__*/react.createElement("h2", null, "Api"), /*#__PURE__*/react.createElement(prism_light/* default */.Z, {
+    language: "javascript",
+    style: hopscotch/* default */.Z,
+    children: api
+  }), /*#__PURE__*/react.createElement("h2", null, "\u4EE3\u7801\u6F14\u793A"), /*#__PURE__*/react.createElement(prism_light/* default */.Z, {
+    language: "javascript",
+    PreTag: "div",
+    style: cb/* default */.Z
+  }, code));
+}
+
+/***/ })
+
+}]);

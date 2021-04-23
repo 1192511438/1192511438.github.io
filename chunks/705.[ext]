@@ -1,0 +1,73 @@
+(self["webpackChunkreact_lyl_ui_web"] = self["webpackChunkreact_lyl_ui_web"] || []).push([[705],{
+
+/***/ 662:
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": function() { return /* binding */ index; }
+});
+
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__(7294);
+;// CONCATENATED MODULE: ./src/component/introduce/css/index.scss
+// extracted by mini-css-extract-plugin
+
+// EXTERNAL MODULE: ./node_modules/react-syntax-highlighter/dist/esm/prism-light.js + 3 modules
+var prism_light = __webpack_require__(8390);
+// EXTERNAL MODULE: ./node_modules/react-syntax-highlighter/dist/esm/styles/prism/hopscotch.js
+var hopscotch = __webpack_require__(9603);
+// EXTERNAL MODULE: ./node_modules/react-syntax-highlighter/dist/esm/styles/prism/cb.js
+var cb = __webpack_require__(3136);
+// EXTERNAL MODULE: ./node_modules/react-syntax-highlighter/dist/esm/styles/prism/vs.js
+var vs = __webpack_require__(5578);
+// EXTERNAL MODULE: ./src/component/introduce/api.md
+var api = __webpack_require__(8149);
+;// CONCATENATED MODULE: ./src/component/introduce/index.tsx
+
+ // import ReactMarkdown from 'react-markdown'
+
+
+
+
+function index() {
+  var codeString = "\n    $ npm i lyl-aaa-ui --save-dev\n    $ import {Button} from 'lyl-aaa-ui\n    $ ReactDom.render(<Button></Button>,document.getELementById('root'))\n    $ \u5177\u4F53\u4F7F\u7528\u8BF7\u53C2\u8003\u5404\u4E2A\u7EC4\u4EF6\n    ";
+  var Typescript = "\n    lyl-aaa-ui \u63D0\u4F9B\u4E86\u5B8C\u6574\u7684\u5B9A\u4E49\u6587\u4EF6\u3002\uFF08\u4E0D\u8981\u5F15\u7528 @types/lyl-aaa-ui\uFF09\u3002\n    ";
+  return /*#__PURE__*/react.createElement("div", {
+    id: "introduce"
+  }, /*#__PURE__*/react.createElement("h2", null, "\u4ECB\u7ECD"), /*#__PURE__*/react.createElement("div", {
+    id: "content-introduce"
+  }, /*#__PURE__*/react.createElement(prism_light/* default */.Z, {
+    language: "javascript",
+    style: hopscotch/* default */.Z,
+    children: api
+  }), /*#__PURE__*/react.createElement("h2", null, "\u4F7F\u7528"), /*#__PURE__*/react.createElement(prism_light/* default */.Z, {
+    language: "javascript",
+    PreTag: "div",
+    style: cb/* default */.Z
+  }, codeString), /*#__PURE__*/react.createElement("h2", null, "TypeScript"), /*#__PURE__*/react.createElement(prism_light/* default */.Z, {
+    language: "javascript",
+    PreTag: "div",
+    style: vs/* default */.Z
+  }, Typescript), /*#__PURE__*/react.createElement("h2", null, "\u6309\u9700\u52A0\u8F7D"), /*#__PURE__*/react.createElement(prism_light/* default */.Z, {
+    language: "javascript",
+    PreTag: "div",
+    style: vs/* default */.Z
+  }, '可以支持tree-shanking')));
+}
+
+/***/ }),
+
+/***/ 8149:
+/***/ (function(module) {
+
+"use strict";
+module.exports = "其实这个组件起名的时候想叫free-ui,象征着自由,想打造一款使用自由的组件，然后就随便起了个名lyl-aaa-ui\r\n\r\n    > github-URL: https://github.com/1192511438/react-ui.git\r\n   \r\n    \r\n    * 不用担心使用typescript会出现报错的现象，因为本身已经封装好了对应的ts表述文件\r\n    * 使用hooks，所以在你的配置中react版本要大于16.9.0\r\n    * 只能用于react，以后可能会考虑vue3\r\n    \r\n\r\n";
+
+/***/ })
+
+}]);
