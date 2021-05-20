@@ -39,7 +39,7 @@ function index() {
   var code = "\n    import {Upload} from 'lyl-aaa-ui'\n    <Upload></Upload>\n    ";
   return /*#__PURE__*/react.createElement("div", {
     id: "lyl-upload"
-  }, /*#__PURE__*/react.createElement("h2", null, "Form"), /*#__PURE__*/react.createElement(prism_light/* default */.Z, {
+  }, /*#__PURE__*/react.createElement("h2", null, "Upload"), /*#__PURE__*/react.createElement(prism_light/* default */.Z, {
     language: "javascript",
     PreTag: "div",
     style: vs/* default */.Z
