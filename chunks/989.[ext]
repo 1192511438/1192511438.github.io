@@ -1,4 +1,4 @@
-(self["webpackChunkreact_lyl_ui_web"] = self["webpackChunkreact_lyl_ui_web"] || []).push([[406],{
+(self["webpackChunkreact_lyl_ui_web"] = self["webpackChunkreact_lyl_ui_web"] || []).push([[989],{
 
 /***/ 2667:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
@@ -44,7 +44,7 @@ function index() {
     language: "javascript",
     PreTag: "div",
     style: cb/* default */.Z
-  }, zhuyi), /*#__PURE__*/react.createElement("h2", null, "Form"), /*#__PURE__*/react.createElement(prism_light/* default */.Z, {
+  }, zhuyi), /*#__PURE__*/react.createElement("h2", null, "ScrollBar"), /*#__PURE__*/react.createElement(prism_light/* default */.Z, {
     language: "javascript",
     PreTag: "div",
     style: vs/* default */.Z

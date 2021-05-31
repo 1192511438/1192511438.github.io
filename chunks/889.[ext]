@@ -1,6 +1,6 @@
 (self["webpackChunkreact_lyl_ui_web"] = self["webpackChunkreact_lyl_ui_web"] || []).push([[889],{
 
-/***/ 8214:
+/***/ 4218:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18,7 +18,7 @@ var react = __webpack_require__(7294);
 var lyl_aaa_ui = __webpack_require__(3371);
 // EXTERNAL MODULE: ./node_modules/react-syntax-highlighter/dist/esm/prism-light.js + 3 modules
 var prism_light = __webpack_require__(8390);
-;// CONCATENATED MODULE: ./src/component/alert/css/index.scss
+;// CONCATENATED MODULE: ./src/component/upload/css/index.scss
 // extracted by mini-css-extract-plugin
 
 // EXTERNAL MODULE: ./node_modules/react-syntax-highlighter/dist/esm/styles/prism/vs.js
@@ -27,36 +27,29 @@ var vs = __webpack_require__(5578);
 var hopscotch = __webpack_require__(9603);
 // EXTERNAL MODULE: ./node_modules/react-syntax-highlighter/dist/esm/styles/prism/cb.js
 var cb = __webpack_require__(3136);
-;// CONCATENATED MODULE: ./src/component/alert/index.tsx
+;// CONCATENATED MODULE: ./src/component/upload/index.tsx
 
 
 
 
 
 function index() {
-  var Typescript = "\n    <Alert type={''} color={''}  ></Alert>\n    ";
-  var api = "\n    ###API\n    \u5C5E\u6027          \u8BF4\u660E                      \u7C7B\u578B                      \u9ED8\u8BA4\u503C                  \u4ECB\u7ECD\n    \n    type       button\u5BBD\u5EA6         number|default|big|small       default\uFF08150px\uFF09       \u5EFA\u8BAE\u81EA\u5B9A\u4E49\u4F7F\u7528\u5927\u5C0F\n\n    color        \u989C\u8272                      string                 #f6ffed(\u7EFF\u8272)        \u81EA\u5DF1\u8BBE\u5B9A\u989C\u8272\uFF0C\u9ED8\u8BA4\u84DD\u8272\n\n    message     \u8B66\u544A\u7C7B\u578B             warn|success|error              success             \u7B2C\u4E00\u4E2A\u53C2\u6570\u4E3Aenv\n\n    shape        \u5F62\u72B6                   circle|round                 round              \n\n    Time        \u65F6\u95F4(\u6BEB\u79D2)                 number                       \u65E0           \u591A\u5C11\u65F6\u95F4\u6D88\u5931\uFF0C\u9ED8\u8BA4\u4E0D\u6D88\u5931\n    ";
-  var code = "\n    import {Alert} from 'lyl-aaa-ui'\n    <Alert message='warn' shape='circle' color='yellowgreen'>warn</Alert> \n    ";
+  var Typescript = "\n    <Upload></Upload>\n    ";
+  var api = "\n    ###API\n    \u5C5E\u6027           \u8BF4\u660E                      \u7C7B\u578B                      \u9ED8\u8BA4\u503C                  \u4ECB\u7ECD\n    \n    width          \u5BBD\u5EA6                     Number                     100               \u6839\u636E\u60C5\u51B5\u5B9A\u4E49 \n\n    height         \u9AD8\u5EA6                     Number                     100               \u6839\u636E\u60C5\u51B5\u5B9A\u4E49\n\n   callback     \u4E0A\u4F20\u540E\u56DE\u8C03\u51FD\u6570               function                    \u65E0             \u53C2\u6570\u4E3Ainput.files[0]\n     \n\n    ";
+  var code = "\n    import {Upload} from 'lyl-aaa-ui'\n    <Upload></Upload>\n    ";
   return /*#__PURE__*/react.createElement("div", {
-    id: "lyl-alert"
-  }, /*#__PURE__*/react.createElement("h2", null, "Alert"), /*#__PURE__*/react.createElement(prism_light/* default */.Z, {
+    id: "lyl-upload"
+  }, /*#__PURE__*/react.createElement("h2", null, "Upload"), /*#__PURE__*/react.createElement(prism_light/* default */.Z, {
     language: "javascript",
     PreTag: "div",
     style: vs/* default */.Z
   }, Typescript), /*#__PURE__*/react.createElement("div", {
     id: "show"
-  }, /*#__PURE__*/react.createElement(lyl_aaa_ui/* Alert */.bZ, {
-    message: "success"
-  }, "success"), /*#__PURE__*/react.createElement(lyl_aaa_ui/* Alert */.bZ, {
-    message: "warn",
-    shape: "circle",
-    Time: 3000,
-    color: "yellowgreen"
-  }, "warn"), /*#__PURE__*/react.createElement(lyl_aaa_ui/* Alert */.bZ, {
-    message: "error",
-    type: "big",
-    shape: "circle"
-  }, "error")), /*#__PURE__*/react.createElement("h2", null, "Api"), /*#__PURE__*/react.createElement(prism_light/* default */.Z, {
+  }, /*#__PURE__*/react.createElement(lyl_aaa_ui/* Upload */.gq, {
+    callback: function callback() {},
+    width: 80,
+    height: 80
+  })), /*#__PURE__*/react.createElement("h2", null, "Api"), /*#__PURE__*/react.createElement(prism_light/* default */.Z, {
     language: "javascript",
     style: hopscotch/* default */.Z,
     children: api
